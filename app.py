@@ -49,8 +49,9 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Sharjah', 'Mohali', 'Bengaluru']
 
 # Load model (your local path)
-with open(r'C:\Users\balas\OneDrive\Desktop\Balu\Myprojects\vs\iplwinner\pipe.pkl', 'rb') as f:
+with open('pipe.pkl', 'rb') as f:
     pipe = pickle.load(f)
+
 
 # Your app UI now — keep it simple for now
 st.title("🔥 IPL Win Predictor 🏆")
